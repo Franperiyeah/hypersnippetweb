@@ -1,0 +1,106 @@
+:root {
+  --bg: #000;
+  --fg: #fff;
+  --pink: #f81ce5;
+  --green: #50e3c2;
+  --bright-green: #3afacf;
+  --gray: #999;
+  --font-sans: "Inter",sans-serif;
+  --font-mono: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header_header__HDboe {
+  height: 85px;
+  display: grid;
+  grid: auto-flow/repeat(3,1fr);
+}
+
+.header_logo__2lzAa {
+  display: flex;
+  color: #fff;
+  margin: auto auto auto 0;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+  transition: color .2s ease-in-out;
+}
+
+.header_logo__2lzAa {
+  color: #fff;
+}
+
+.header_desktopNav__1U-xV {
+  margin: auto;
+}
+
+.header_link__21Pi4 {
+  font-size: 14px;
+  color: var(--gray);
+  transition: color .2s ease;
+}
+.header_desktopNav__1U-xV > a:not(:last-child) {
+  margin-right: 24px;
+}
+
+.hero_root__1FlFk {
+  margin: 3rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.hero_logo__2EG65 {
+  margin: auto;
+}
+
+.content_root__1KEov {
+  max-width: 700px;
+  margin: auto;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.installation_title__24KUc {
+  margin-bottom: 0 !important;
+  line-height: 1;
+}
+
+.content_root__1KEov h2 {
+  font-size: 36px;
+  margin: 100px 0 30px;
+      margin-bottom: 30px;
+  padding-top: 30px;
+  color: white;
+  display: flex;
+justify-content: center;
+}
+
+.content_root__1KEov a:hover {
+  color: var(--fg);
+  border-color: var(--fg);
+}
