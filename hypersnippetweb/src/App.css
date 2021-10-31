@@ -104,3 +104,23 @@ justify-content: center;
   color: var(--fg);
   border-color: var(--fg);
 }
+
+p {
+  margin-top: 2em;
+}
+
+table, td, th {
+  border: 1px solid white;
+  text-align: center;
+}
+
+table {
+  margin-top: 2em;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.margin-bottom {
+  margin-bottom: 2em;
+}
